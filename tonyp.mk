@@ -22,3 +22,6 @@ $(call inherit-product, vendor/google/tiny_gapps_nonneon_tonyp.mk)
 
 # Legacy OMX
 LEGACY_OMX := true
+
+# Define BT audio buffer as 32
+LPA_DEFAULT_BUFFER_SIZE := 32
