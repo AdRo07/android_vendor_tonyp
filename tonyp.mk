@@ -7,7 +7,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # prebuilts
 PRODUCT_COPY_FILES +=  \
     vendor/tonyp/prebuilt/BarcodeScanner.apk:system/app/BarcodeScanner.apk \
-    vendor/tonyp/prebuilt/PerformanceControl.apk:system/app/PerformanceControl.apk
+    vendor/tonyp/prebuilt/KernelControl.apk:system/app/KernelControl.apk
 
 # enable pipe
 TARGET_USE_PIPE := true
