@@ -1,5 +1,5 @@
 # tonyp version
-TONYP_VERSION = 07
+TONYP_VERSION = 42
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.tonyp.version=$(TONYP_VERSION)
